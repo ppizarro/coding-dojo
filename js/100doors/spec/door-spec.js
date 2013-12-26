@@ -24,7 +24,7 @@ describe('Door suite test', function () {
         expect(door.isClosed()).toBe(false);
     });
 
-    it('should not be closed after close', function () {
+    it('should be closed after close', function () {
         door.open();
         door.close();
         expect(door.isClosed()).toBe(true);
