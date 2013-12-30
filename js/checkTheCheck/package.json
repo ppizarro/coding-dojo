@@ -1,0 +1,24 @@
+{
+  "name": "checkTheCheck",
+  "version": "0.0.1",
+  "description": "Check the Check",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-node": "~1.12.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppizarro/coding-dojo/tree/master/js/checkTheCheck"
+  },
+  "keywords": [
+    "dojo"
+  ],
+  "author": "Paulo Pizarro",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "dcf34ea7826b6781cb9580e1e383aca0bdcf5c1a"
+}
